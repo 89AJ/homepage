@@ -7,11 +7,10 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={require("./AAA.jpg")} className="App-logo" alt="me" />
-          <h2>Anders Jensen</h2>
+          <p className="Me-text">I'm <b>Anders Jensen</b>, a PhD student working in the field of molecular electronics. Modelling molecules and how current flow through them </p>
         </div>
         <p className="App-intro">
-          Hello there!
-          
+          Here goes the data
         </p>
       </div>
     );
